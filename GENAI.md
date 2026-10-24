@@ -23,7 +23,6 @@ The Pokedex project followed exactly that chain. The prompts, in order:
 | 2 | The base backend (Java, Spring Boot) following that roadmap, zipped | Implementation anchored to the roadmap, not to the model's defaults |
 | 3 | The Vue frontend, "following the roadmap and calling the existing backend" | The backend DTOs act as the contract, so the frontend isn't guessed |
 | 4 | The interview presentation from the evaluation criteria | Forces me to re-read the whole thing critically |
-| 5 | This document | |
 
 Using the roadmap as the shared spec was the most useful trick: every later prompt could say "follow the roadmap" instead of re-explaining the architecture.
 
