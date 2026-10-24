@@ -1,5 +1,5 @@
 Pokedex-web-api project, both projects are inside this only repository just for delivering purposes. 
-You'll encounter in each project their only readme file, with the instructions to run it.
+You'll encounter in each project their own readme file, with the instructions to run it.
 
 Here's a summary of both projects.
 
