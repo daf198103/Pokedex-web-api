@@ -1,0 +1,11 @@
+# Runs only the web app. The backend must be reachable at API_UPSTREAM.
+# Default assumes the API runs on the host at :8080 (e.g. `docker compose up` in pokedex-api, which publishes 8080).
+services:
+  web:
+    build: .
+    ports:
+      - "3000:80"
+    environment:
+      API_UPSTREAM: http://host.docker.internal:8080
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

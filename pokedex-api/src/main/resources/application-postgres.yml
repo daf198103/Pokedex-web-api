@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/pokedex}
+    username: ${DB_USER:pokedex}
+    password: ${DB_PASSWORD:pokedex}
